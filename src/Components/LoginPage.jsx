@@ -17,7 +17,7 @@ const LoginPage = () => {
           </p>
           <img src="./logo.png" alt="logo" />
 
-          <div className="flex flex-row items-center space-x-4 bg-white px-16 lg:px-20 py-4 rounded-lg">
+          <div className="flex flex-row items-center space-x-4 bg-white px-16 lg:px-20 py-4 rounded-lg cursor-pointer">
             <img src="./google.png" alt="google icon" />
             <p className="text-xl text-[#ed1c24]">Sing in with Google</p>
           </div>
