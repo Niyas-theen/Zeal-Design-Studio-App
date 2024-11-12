@@ -12,12 +12,12 @@ const LoginPage = () => {
         </div>
 
         <div className="w-full lg:w-1/2  h-full bg-[#f6f6fb] flex flex-col justify-center items-center space-y-10">
-          <p className="font-sans text-2xl text-[#ed1c24]">
+          <p className="font-sans text-xl lg:text-2xl text-[#ed1c24]">
             Welcome to Zeal Design Studio
           </p>
           <img src="./logo.png" alt="logo" />
 
-          <div className="flex flex-row items-center space-x-4 bg-white px-20 py-4 rounded-lg">
+          <div className="flex flex-row items-center space-x-4 bg-white px-16 lg:px-20 py-4 rounded-lg">
             <img src="./google.png" alt="google icon" />
             <p className="text-xl text-[#ed1c24]">Sing in with Google</p>
           </div>
@@ -32,15 +32,15 @@ const LoginPage = () => {
             <input
               type="text"
               placeholder="Enter your email"
-              className="border-2 border-[#080608] rounded-md w-96 h-16 bg-transparent p-4 text-[#080608]"
+              className="border-2 border-[#080608] rounded-md w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
             />
             <input
               type="password"
               placeholder="password"
-              className="border-2 border-[#080608] rounded-md w-96 h-16 bg-transparent p-4 text-[#080608]"
+              className="border-2 border-[#080608] rounded-md w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
             />
 
-            <button className="bg-[#ed1c24] w-96 h-16 rounded-md text-white text-xl">
+            <button className="bg-[#ed1c24] w-80 lg:w-96 h-16 rounded-md text-white text-xl">
               LOGIN
             </button>
 
