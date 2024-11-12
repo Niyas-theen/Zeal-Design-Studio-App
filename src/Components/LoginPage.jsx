@@ -3,7 +3,7 @@ import React from "react";
 const LoginPage = () => {
   return (
     <>
-      <div className=" w-full h-screen flex sm:flex-row flex-col justify-center items-center">
+      <div className=" w-full h-screen flex sm:flex-row flex-col justify-center items-center ">
         <div className="hidden  w-1/2 h-full bg-[#fde9e9] lg:flex flex-col justify-center items-center ">
           <img className="hidden lg:block" src="./designer banner.png" alt="" />
           <h1 className="hidden lg:block font-sans font-semibold text-6xl text-[#080608]">
@@ -11,7 +11,7 @@ const LoginPage = () => {
           </h1>
         </div>
 
-        <div className="w-full lg:w-1/2  h-full bg-[#f6f6fb] flex flex-col justify-center items-center space-y-10">
+        <div className="w-full lg:w-1/2  h-full bg-[#f6f6fb] flex flex-col justify-center items-center lg:my-10 space-y-10">
           <p className="font-sans text-xl lg:text-2xl text-[#ed1c24]">
             Welcome to Zeal Design Studio
           </p>
