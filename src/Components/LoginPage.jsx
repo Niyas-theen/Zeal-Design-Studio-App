@@ -37,7 +37,7 @@ const LoginPage = () => {
             <input
               type="password"
               placeholder="password"
-              className="border-b-2 border-[#080608]  w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
+              className="border-2 border-[#080608] rounded-md w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
             />
 
             <button className="bg-[#ed1c24] w-80 lg:w-96 h-16 rounded-md text-white text-xl">
