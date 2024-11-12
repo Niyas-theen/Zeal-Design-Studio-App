@@ -32,12 +32,12 @@ const LoginPage = () => {
             <input
               type="text"
               placeholder="Enter your email"
-              className="border-2 border-[#080608] rounded-md w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
+              className="border-b-2 border-[#080608]  w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
             />
             <input
               type="password"
               placeholder="password"
-              className="border-2 border-[#080608] rounded-md w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
+              className="border-b-2 border-[#080608]  w-80 lg:w-96 h-16 bg-transparent p-4 text-[#080608]"
             />
 
             <button className="bg-[#ed1c24] w-80 lg:w-96 h-16 rounded-md text-white text-xl">
