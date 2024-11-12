@@ -3,7 +3,7 @@ import LoginPage from './Components/LoginPage'
 
 const App = () => {
   return (
-    <div>
+    <div className='w-full h-screen'>
       <LoginPage />
     </div>
   )
